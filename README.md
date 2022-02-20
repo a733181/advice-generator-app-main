@@ -4,9 +4,10 @@
 
 [Page](https://a733181.github.io/advice-generator-app-main/)
 
-電腦版
+電腦版畫面
 ![電腦版畫面](https://a733181.github.io/advice-generator-app-main/README-img/desktop.JPG)
 
+手機版畫面
 ![手機板畫面](https://a733181.github.io/advice-generator-app-main/README-img/mobile.JPG)
 
 框架：Vue
