@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>advice-generator-app-main</title>
+    <script src="https://unpkg.com/tailwindcss-jit-cdn"></script>
+    <script src="https://unpkg.com/vue@next"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="./app.css" />
+    <script src="./app.js" defer></script>
+    <link rel="icon" type="image/png" href="./images/icon-dice.svg" />
+  </head>
+  <body
+    class="h-[calc(100vh-112px)] sm:h-[calc(100vh-40px)] font-manrope bg-[#202732]"
+  >
+    <div id="app" class="flex items-center justify-center h-full p-3">
+      <div
+        class="bg-[#303b48] w-[540px] rounded-lg text-center relative sm:px-7"
+      >
+        <p class="text-[#27e4bb] text-xs mt-[54px] mb-[37px]">
+          ADVICE # {{slip.id}}
+        </p>
+        <h1 class="sm:text-3xl text-[#d8e8f2] text-lg">{{slip.advice}}</h1>
+        <div class="banner"></div>
+        <img
+          src="./images/icon-dice.svg"
+          alt="dice"
+          class="absolute -bottom-7 bg-[#52FFA8] p-[20px] rounded-full left-[50%] -translate-x-1/2 hover:bg-white transition-all active:bg-yellow-200"
+          @click="changeMessage"
+        />
+      </div>
+    </div>
+    <footer
+      class="flex flex-col items-center justify-center p-2 bg-gray-100 sm:flex-row"
+    >
+      <p class="mr-1">Challenge by</p>
+      <a
+        href="https://www.frontendmentor.io?ref=challenge"
+        target="_blank"
+        class="mr-3 text-blue-400"
+        >Frontend Mentor</a
+      >
+      <p class="mr-1">Coded by</p>
+      <a
+        href="https://discordapp.com/users/868355995334737961"
+        class="text-green-400"
+        >SYUAN</a
+      >
+    </footer>
+  </body>
+</html>

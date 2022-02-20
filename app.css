@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+
+.font-manrope {
+  font-family: manrope, ui-serif, Georgia, Cambria, 'Times New Roman', Times,
+    serif;
+}
+
+.banner {
+  background: url('./images/pattern-divider-mobile.svg');
+  height: 16px;
+  width: 295px;
+  margin: 22px auto 70px auto;
+}
+
+@media (min-width: 768px) {
+  .banner {
+    background: url('./images/pattern-divider-desktop.svg');
+    height: 16px;
+    width: 444px;
+    margin: 40px auto 72px auto;
+  }
+}
