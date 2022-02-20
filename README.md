@@ -1,6 +1,6 @@
 # Advice generator app
 
-[frontend mentor CHALLENGES](https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db)
+[frontend mentor challenge](https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db)
 
 [Page](https://a733181.github.io/advice-generator-app-main/)
 
