@@ -16,3 +16,5 @@
 CSS：Tailwind CSS
 
 套件：axios
+
+API：[Advice Slip API](https://api.adviceslip.com)
